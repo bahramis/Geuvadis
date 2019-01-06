@@ -40,8 +40,8 @@ for line in open('ALL.chr'+str(chrom)+'.phase3_shapeit2_mvncall_integrated_v5a.2
         break
 
 
-mapout=open(str(population_name) + "/chr" + str(chrom) + "_" + str(population_name) + "_allsnp.map", 'w')
-pedout=open(str(population_name) + "/chr" + str(chrom) + "_" + str(population_name) + "_allsnp.ped", 'w')
+mapout=open("glimmps/" + str(population_name) + "/genotype/chr" + str(chrom) + "_" + str(population_name) + "_allsnp.map", 'w')
+pedout=open("glimmps/" + str(population_name) + "/genotype/chr" + str(chrom) + "_" + str(population_name) + "_allsnp.ped", 'w')
 
 pedout.write('\t'.join( population[population_name] )+'\n')
 pedout.write('\t'.join(['1']*len(population[population_name]))+'\n')
