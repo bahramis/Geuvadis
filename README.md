@@ -46,6 +46,10 @@ $ python scripts/run_preprocess.py metadata.txt
 It generates all the scripts for all the RNA-seq data to be 
 run on cluster.
 
+Mapping statistics:
+
+
+
 running rMATS
 ---------------------------------------
 The latest version of rMATS was ran on the data. To do this 
@@ -62,12 +66,16 @@ Filtering exons
 ---------------------------------------
 We filtered out the alternative splicing events in each population 
 separately, according to the following criteria: 
+
 (1) the average exon inclusion level across all individuals is 
-between 5% and 95% 
+between 5% and 95%.
+ 
 (2) the average total read count of all individuals is no less 
-than 10 
+than 10.
+ 
 (3) the range (maximum - minimum) of exon inclusion levels across all
-individuals is greater than 20% 
+individuals is greater than 20%.
+
 (4) more than 20% of the individuals have non-zero read count. 
 
 To do this simply run:
@@ -95,7 +103,7 @@ The number of filtered exons for each population is as follows:
 
 |   Population    |  CEU  |  FIN  |  GBR  |  TSI  |  YRI  |
 | :-------------: | :---: | :---: | :---: | :---: | :---: |
-| Number of exons | 8,289 | 9.125 | 9,088 | 8,795 | 9,247 |
+| Number of exons | 8,289 | 9,125 | 9,088 | 8,795 | 9,247 |
 
 Preparing genotypes
 ---------------------------------------
@@ -147,14 +155,25 @@ $ ../../../scripts/sQTLregress.oneexon.cis.perm.R ../input/Geuvadis_exon_info_SE
 
 The output will be in the Glimmps_each_exon_cis_perm1 directory for each population.
 
+Results
+---------------------------------------
+In the CEU population, With a p-value cutoff of 10e-6, 554 events are called significant. 
+Comparing the events to previously published results from the lab, out of 620 significant 
+events, There are 408 events common between two analyses. The p-values are in high correlation 
+with each other:
+
+
+
 Contacts and bug reports
 ------------------------
 Emad Bahrami-Samani
+
 bahramise1@email.chop.edu
 
 Copyright and License Information
 ---------------------------------
 Copyright (C) 2019 Children's Hospital of Philadelphia
+
 Emad Bahrami-Samani
 
 Authors: Emad Bahrami-Samani
