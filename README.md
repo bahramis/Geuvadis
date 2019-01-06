@@ -1,7 +1,5 @@
 # Running GLiMMPS on Geuvadis RNA-seq data
 
-### Steps ###
-
 There are several steps to prepare the input for GLiMMPS:
 
 Preparing the genome and gene annotation:
