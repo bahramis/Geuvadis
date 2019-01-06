@@ -91,6 +91,12 @@ $ scripts/exon_info_commands.sh
 $ scripts/exon_commands.sh
 ```
 
+The number of filtered exons for each population is as follows:
+
+|   Population    |  CEU  |  FIN  |  GBR  |  TSI  |  YRI  |
+| :-------------: | :---: | :---: | :---: | :---: | :---: |
+| Number of exons | 8,289 | 9.125 | 9,088 | 8,795 | 9,247 |
+
 Preparing genotypes
 ---------------------------------------
 First download the phase3 genotype from:
