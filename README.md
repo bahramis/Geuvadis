@@ -48,7 +48,7 @@ run on cluster.
 
 Mapping statistics:
 
-
+![mapping_stat](https://github.com/bahramis/Geuvadis/blob/master/figures/mapping_stats.jpg)
 
 running rMATS
 ---------------------------------------
@@ -91,7 +91,7 @@ all the criteria.
 then run the following commands:
 
 ```bash
-$ for {CEU,FIN,GBR,TSI,YRI}; do grep ${f} splicing/filtered_exons.txt | cut -f2 > glimmps/${f}/input/filtered_exons.txt
+$ for f in {CEU,FIN,GBR,TSI,YRI}; do grep ${f} splicing/filtered_exons.txt | cut -f2 > glimmps/${f}/input/filtered_exons.txt; done
 ```
 
 ```bash
@@ -162,7 +162,7 @@ Comparing the events to previously published results from the lab, out of 620 si
 events, There are 408 events common between two analyses. The p-values are in high correlation 
 with each other:
 
-
+![comparison](https://github.com/bahramis/Geuvadis/blob/master/figures/comparison.jpg)
 
 Contacts and bug reports
 ------------------------
