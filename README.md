@@ -48,7 +48,7 @@ run on cluster.
 
 Mapping statistics:
 
-![mapping_stat](https://github.com/bahramis/Geuvadis/blob/master/figures/mapping_stats.jpg)
+![mapping_stat](https://github.com/bahramis/Geuvadis/blob/master/figures/mapping_stats.png)
 
 running rMATS
 ---------------------------------------
