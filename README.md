@@ -164,6 +164,11 @@ with each other:
 
 ![comparison](https://github.com/bahramis/Geuvadis/blob/master/figures/comparison.jpg)
 
+Examples
+---------------------------------------
+![example](https://github.com/bahramis/Geuvadis/blob/master/figures/SE_60378_out.jpg)
+
+
 Contacts and bug reports
 ------------------------
 Emad Bahrami-Samani
