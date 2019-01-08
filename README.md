@@ -164,10 +164,15 @@ with each other:
 
 ![comparison](https://github.com/bahramis/Geuvadis/blob/master/figures/comparison.jpg)
 
+Positive control
+---------------------------------------
+![pc](https://github.com/bahramis/Geuvadis/blob/master/figures/positive_control.jpg)
+
 Examples
 ---------------------------------------
-![example](https://github.com/bahramis/Geuvadis/blob/master/figures/SE_60378_out.jpg)
-
+![example1](https://github.com/bahramis/Geuvadis/blob/master/figures/SE_291592_out.jpg)
+![example2](https://github.com/bahramis/Geuvadis/blob/master/figures/SE_206143_out.jpg)
+![example3](https://github.com/bahramis/Geuvadis/blob/master/figures/SE_175351_out.jpg)
 
 Contacts and bug reports
 ------------------------
