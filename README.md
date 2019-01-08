@@ -36,7 +36,7 @@ all the 76 nucleotide read down to 75 for proper splicing
 analysis where the read length is required to be equal for 
 all the samples.
 
-To downaload, preprocess and map the data to the hg19 genome 
+To download, preprocess and map the data to the hg19 genome 
 just run:
 
 ```bash
@@ -85,7 +85,7 @@ $ python scripts/parse_rmats.py metadata.txt splicing/b_1.txt splicing/b_2.txt s
 ```
 
 The output is a tab delimited file with two columns, first column 
-is the population and the second column is the exon IDs that passed 
+is the population and the second column contains the exon IDs that passed 
 all the criteria.
 
 then run the following commands:
@@ -99,7 +99,7 @@ $ scripts/exon_info_commands.sh
 $ scripts/exon_commands.sh
 ```
 
-The number of filtered exons for each population is as follows:
+The number of exons that passed the filters in each population is as follows:
 
 |   Population    |  CEU  |  FIN  |  GBR  |  TSI  |  YRI  |
 | :-------------: | :---: | :---: | :---: | :---: | :---: |
@@ -118,7 +118,7 @@ gzipped .vcf files and run the following script:
 for f in {CEU,FIN,GBR,TSI,YRI}; do for i in {1..22}; do python scripts/get_genotype_table_populations.py genotype/sample_information.txt genotype/sample_pedigree_from_1kgenome.txt ${i} ${f}; done; done
 ```
 
-Then to creat the .raw files run plink. This can be done by running:
+Then to create the .raw files run plink. This can be done by running:
 
 ```bash
 $ python scripts/prepare_genotype.py metadata_genotype.txt
@@ -157,9 +157,9 @@ The output will be in the Glimmps_each_exon_cis_perm1 directory for each populat
 
 Results
 ---------------------------------------
-In the CEU population, With a p-value cutoff of 10e-6, 554 events are called significant. 
+In the CEU population, with a p-value cutoff of 10e-6, 554 events are called significant. 
 Comparing the events to previously published results from the lab, out of 620 significant 
-events, There are 408 events common between two analyses. The p-values are in high correlation 
+events, there are 408 events common between two analyses. The p-values are in high correlation 
 with each other:
 
 ![comparison](https://github.com/bahramis/Geuvadis/blob/master/figures/comparison.jpg)
