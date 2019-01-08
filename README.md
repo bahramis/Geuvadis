@@ -99,7 +99,7 @@ $ scripts/exon_info_commands.sh
 $ scripts/exon_commands.sh
 ```
 
-The number of exons that passed the filters in each population is as follows:
+The number of exons that passed the filters in each population:
 
 |   Population    |  CEU  |  FIN  |  GBR  |  TSI  |  YRI  |
 | :-------------: | :---: | :---: | :---: | :---: | :---: |
